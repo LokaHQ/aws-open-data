@@ -1,4 +1,4 @@
-# Tutorial
+# gatk-sv tutorial
 
 Share a tutorial on how to use the data on AWS. 
 

@@ -1,7 +1,7 @@
 # aws-open-data
 Our datasets publicly available for access from AWS resources.
 
-## Template
+## gatk-sv
 
-* [Documentation](template/documentation.md)
-* [Tutorial](template/tutorial.md)
+* [Documentation](gatk-sv/documentation.md)
+* [Tutorial](gatk-sv/tutorial.md)
