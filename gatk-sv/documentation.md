@@ -26,3 +26,21 @@ gatk-sv-data
 │   └── batch_sv.test_large.qc_definitions.tsv
 └── README.md
 ```
+
+## Folder Details
+Below are the details regarding the files and purpose of these folders.
+| FiS3 Prefix inside s3://gatk-sv-datale | Description |
+| :--- | :---------- |
+| `bams/` | All the bams and bai index files needed for 156 - 1000 Genomes samples. If these are copied and used, the first step of cram-to-bam conversion will be skipped. This will save on time and cost of the overall pipeline. |
+| `cram/` | All the cram and crai index files needed for 156 - 1000 Genomes samples. |
+| `reference/broad-ref/` | The reference files needed for the pipeline consisting of GRCH38 assembly files, bed, ped and index files. These are static and could be used for other samples.|
+| `bareference/gatk-sv-resources/` |This folder consists of reference tsv, txt, bed files needed for 1kg samples, gatk processes and framework related. These would need to be updated in case of running samples other than 1000 Genomes. |
+| `reference/gvcf/` | All the Haplotype called g.vcf.gz and there index files needed for the 156 - 1000 Genome sample processing.|
+| `reference/batch_sv.test_large.qc_definitions.tsv/` | This file is speicific to last module of the pipeline used for comparing the qc results. |
+| `gcp_data_not_used/` | This file is speicific to last module of the pipeline used for comparing the qc results. |
+
+These folders are also referenced in the [AWS setup scripts](https://github.com/goldfinchbio/aws-gatk-sv/blob/master/scripts/aws_setup_script.sh), so ensure these are in sync with the FSxL or S3 bucket being used for running the pipeline.
+
+
+#
+**We are working on coming up with concrete steps for identifying and updating the reference files on case basis. Please watch out for the updates here.** 
