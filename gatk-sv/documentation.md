@@ -29,7 +29,7 @@ gatk-sv-data
 
 ## Folder Details
 Below are the details regarding the files and purpose of these folders.
-| FiS3 Prefix inside s3://gatk-sv-datale | Description |
+| S3 Prefix inside s3://gatk-sv-data | Description |
 | :--- | :---------- |
 | `bams/` | All the bams and bai index files needed for 156 - 1000 Genomes samples. If these are copied and used, the first step of cram-to-bam conversion will be skipped. This will save on time and cost of the overall pipeline. |
 | `cram/` | All the cram and crai index files needed for 156 - 1000 Genomes samples. |
