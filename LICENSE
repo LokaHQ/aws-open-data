@@ -1,4 +1,4 @@
-MIT License
+MIT No Attribution
 
 Copyright (c) 2022 Loka Inc.
 
@@ -14,3 +14,27 @@ PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIG
 HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------
+
+** NYGC High-Coverage 1000 Genomes (CRAMs, BAMs, gVCFs, etc)
+
+Data from the 1000 Genomes Project is now available without embargo, following the final publication from the project. Use of the data should be cited in the usual way, with current details available at http://www.internationalgenome.org/faq/how-do-i-cite-1000-genomes-project.
+
+https://www.biorxiv.org/content/early/2021/11/10/2021.02.06.430068
+
+Citation: Byrska-Bishop, Marta and Evani, Uday S. and Zhao, Xuefang and Basile, Anna O. and Abel, Haley J. and Regier, Allison A. and Corvelo, Andr{\'e} and Clarke, Wayne E. and Musunuri, Rajeeva and Nagulapalli, Kshithija and Fairley, Susan and Runnels, Alexi and Winterkorn, Lara and Lowy, Ernesto and The Human Genome Structural Variation Consortium and Flicek, Paul and Germer, Soren and Brand, Harrison and Hall, Ira M. and Talkowski, Michael E. and Narzisi, Giuseppe and Zody, Michael C., High coverage whole genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios. Cold Spring Harbor Laboratory (2011). https://doi.org/10.1101/2021.02.06.430068
+
+------
+
+** GATK-SV Data
+
+https://www.nature.com/articles/s41586-020-2287-8
+
+Citation: Collins, R.L., Brand, H., Karczewski, K.J. et al. A structural variation reference for medical and population genetics. Nature 581, 444–451 (2020). https://doi.org/10.1038/s41586-020-2287-8
+
+https://www.nature.com/articles/s41588-018-0107-y
+
+Citation: Werling, D.M., Brand, H., An, JY. et al. An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder. Nat Genet 50, 727–736 (2018). https://doi.org/10.1038/s41588-018-0107-y
+
+------
